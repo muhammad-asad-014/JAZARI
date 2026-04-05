@@ -29,7 +29,7 @@ Whether you need AI agents, document automation, custom dashboards, real-time to
 Download and install from [docker.com](https://www.docker.com/products/docker-desktop/).
 
 ### 2. Download JAZARI
-Go to our [official website]((https://jazari.netlify.app/)) and download:
+Go to our [official website](https://jazari.netlify.app/) and download:
 - `jazari-v1.0.tar.gz` (the main application)
 - Any plugins you want to try
 
@@ -55,6 +55,7 @@ services:
     restart: unless-stopped
     environment:
       - FLASK_ENV=production
+```
 
 # Load the Docker image
 docker load -i jazari-v1.0.tar.gz
