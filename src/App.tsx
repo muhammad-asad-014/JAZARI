@@ -237,7 +237,13 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                 </button>
               ))}
               <button className="mt-4 w-full py-4 bg-[#8b5cf6] text-white rounded-2xl font-bold">
-                Get Started Free
+                <a
+              href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
+              download="jazari-v1.0.tar.gz"
+            >
+              Download Now
+            </a>
+            <ArrowDown className="w-4 h-4" />
               </button>
             </div>
           </motion.div>
