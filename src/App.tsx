@@ -236,15 +236,14 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                   {tab}
                 </button>
               ))}
-              <button className="mt-4 w-full py-4 bg-[#8b5cf6] text-white rounded-2xl font-bold">
-                <a
-              href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
-              download="jazari-v1.0.tar.gz"
-            >
-              Download Now
-            </a>
-            <ArrowDown className="w-4 h-4" />
-              </button>
+              {/* === FIXED DOWNLOAD BUTTON === */}
+<a
+  href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
+  download="jazari-v1.0.tar.gz"
+  className="mt-4 w-full py-4 bg-[#8b5cf6] text-white rounded-2xl font-bold inline-flex items-center justify-center hover:scale-105 transition-transform active:scale-95"
+>
+  Download Now
+</a>
             </div>
           </motion.div>
         )}
