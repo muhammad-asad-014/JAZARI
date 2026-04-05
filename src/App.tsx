@@ -341,7 +341,7 @@ const Hero = () => (
           >
             <div className="rounded-[1rem] overflow-hidden border border-black/5 bg-gray-100">
               <img
-                src="src/static/images/jazari-dashboard.png"
+                src="static/images/jazari-dashboard.png"
                 alt="JAZARI Dashboard"
                 className="w-full h-auto"
               />
@@ -556,38 +556,38 @@ const Plugins = () => {
       icon: Calendar,
       title: "AERO 1.0.1",
       desc: "Automated Enrollment & Records Organizer. Streamlined check-ins with advanced analytics.",
-      downloadUrl: "src/static/files/AERO_1.0.1.zip"
+      downloadUrl: "static/files/AERO_1.0.1.zip"
     },
     {
       icon: ScanFace,
       title: "AERO 2.0.1",
       desc: "Facial recognition and predictive patterns to automate presence verification.",
-      downloadUrl: "src/static/files/AERO_2.0.1.zip"
+      downloadUrl: "static/files/AERO_2.0.1.zip"
     },
     {
       icon: Sparkles,
       title: "ZENITH 1.0.1",
       desc: "Dynamic question generation based on user performance and knowledge gaps.",
-      downloadUrl: "src/static/files/ZENITH_1.0.1.zip"
+      downloadUrl: "static/files/ZENITH_1.0.1.zip"
     },
     {
       icon: Bot,
       title: "JAZ 1.0.1",
       desc: "An intelligent assistant trained on your specific documentation to provide instant support.",
       wide: true,
-      downloadUrl: "src/static/files/JAZ_1.0.1.zip"
+      downloadUrl: "static/files/JAZ_1.0.1.zip"
     },
     {
       icon: BarChart3,
       title: "IKARIS 1.0.1",
       desc: "Deeper insights and custom data visualization dashboards for every metric.",
-      downloadUrl: "src/static/files/IKARIS_1.0.1.zip"
+      downloadUrl: "static/files/IKARIS_1.0.1.zip"
     },
     {
       icon: View,
       title: "ROBERTA 1.0.1",
       desc: "Deeper insights and custom data visualization dashboards for every metric.",
-      downloadUrl: "src/static/files/ROBERTA_1.0.1.zip"
+      downloadUrl: "static/files/ROBERTA_1.0.1.zip"
     }
   ];
 
