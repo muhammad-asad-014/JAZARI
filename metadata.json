@@ -1,0 +1,5 @@
+{
+  "name": "JAZARI — Developed By - HEYSHAM Softwares",
+  "description": "JAZARI is a powerful, self-hosted, plugin-based platform built with Python & Flask.\nStart with a clean core and instantly expand it by uploading plugins — no coding required.\nFrom AI agents and document automation to custom dashboards and real-time tools, JAZARI adapts to your exact needs.\nShipped as a single Docker image so you can run it locally or on any server in minutes.",
+  "requestFramePermissions": []
+}
