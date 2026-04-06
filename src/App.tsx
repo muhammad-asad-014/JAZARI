@@ -204,7 +204,7 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
 
           <button className="px-6 py-2.5 rounded-full bg-white border border-black/10 text-sm font-semibold shadow-xs hover:shadow-md transition-all flex items-center gap-2 active:scale-95">
             <a
-              href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
+              href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.1.tar.gz"
               download="jazari-v1.0.tar.gz"
             >
               Download Now
@@ -238,7 +238,7 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
               ))}
               {/* === FIXED DOWNLOAD BUTTON === */}
 <a
-  href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
+  href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.1.tar.gz"
   download="jazari-v1.0.tar.gz"
   className="mt-4 w-full py-4 bg-[#8b5cf6] text-white rounded-2xl font-bold inline-flex items-center justify-center hover:scale-105 transition-transform active:scale-95"
 >
