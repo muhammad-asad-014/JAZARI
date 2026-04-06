@@ -308,7 +308,7 @@ const Hero = () => (
         >
           {/* DOWNLOAD BUTTON - now actually downloads the file */}
           <a
-            href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.0.tar.gz"
+            href="https://github.com/muhammad-asad-014/JAZARI/releases/download/v1.0.0/jazari-v1.1.tar.gz"
             download="jazari-v1.0.tar.gz"
             className="w-full py-5 bg-[#2563eb] text-white rounded-2xl text-lg font-bold shadow-xl shadow-blue-500/20 hover:scale-105 transition-transform active:scale-95 flex items-center justify-center gap-2"
           >
