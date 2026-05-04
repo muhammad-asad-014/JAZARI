@@ -149,7 +149,7 @@ const LoadingScreen = () => (
     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
     className="w-16 h-16 flex items-center justify-center"
   >
-    <img src="/static/images/logo.png" alt="Loading..." className="w-full h-full object-contain" />
+    <img src="/static/images/favicon.png" alt="Loading..." className="w-full h-full object-contain" />
   </motion.div>
 </div>
       </div>
@@ -177,7 +177,13 @@ const LoadingScreen = () => (
 const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: (tab: string) => void }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+useEffect(() => {
+  const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+  link.rel = 'icon';
+  link.href = '/favicon.png'; // Path to your favicon in the public folder
+  document.getElementsByTagName('head')[0].appendChild(link);
+  document.title = "JAZARI"; // Optional: Sets the tab title too
+}, []);
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
