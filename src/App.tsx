@@ -144,14 +144,14 @@ const LoadingScreen = () => (
           className="absolute inset-[18px] border-6 border-[#8b5cf6]/10 border-t-[#a78bfa] rounded-full"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <motion.div
-            animate={{ scale: [1, 1.15, 1] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            className="w-10 h-10 bg-linear-to-br from-[#8b5cf6] to-[#c026d3] rounded-full shadow-[0_0_40px_-8px_#8b5cf6] flex items-center justify-center text-white font-black text-xl"
-          >
-            J
-          </motion.div>
-        </div>
+  <motion.div
+    animate={{ scale: [1, 1.1, 1] }}
+    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+    className="w-16 h-16 flex items-center justify-center"
+  >
+    <img src="/logo.png" alt="Loading..." className="w-full h-full object-contain" />
+  </motion.div>
+</div>
       </div>
 
       <div className="flex flex-col items-center gap-4">
@@ -188,12 +188,11 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'py-4 bg-white/80 backdrop-blur-xl border-b border-black/5' : 'py-8'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
         <div onClick={() => setActiveTab('home')} className="flex items-center gap-2 cursor-pointer group">
-          <div className="text-3xl font-bold tracking-tighter text-[#8b5cf6] transition-all ">JAZARI</div>
           <img
-                src="/static/images/logo.png"
-                alt="JAZARI Dashboard"
-                className="w-full h-auto"
-              />
+    src="/logo.png" 
+    alt="JAZARI Logo"
+    className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
+  />
         </div>
 
         <nav className="hidden md:flex items-center gap-x-10 text-sm font-medium">
