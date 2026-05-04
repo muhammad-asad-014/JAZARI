@@ -190,7 +190,7 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
         <div onClick={() => setActiveTab('home')} className="flex items-center gap-2 cursor-pointer group">
           <div className="text-3xl font-bold tracking-tighter text-[#8b5cf6] transition-all ">JAZARI</div>
           <img
-                src="/static/images/jazari-dashboard.png"
+                src="/static/images/logo.png"
                 alt="JAZARI Dashboard"
                 className="w-full h-auto"
               />
