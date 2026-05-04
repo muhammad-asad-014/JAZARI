@@ -149,7 +149,7 @@ const LoadingScreen = () => (
     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
     className="w-16 h-16 flex items-center justify-center"
   >
-    <img src="/logo.png" alt="Loading..." className="w-full h-full object-contain" />
+    <img src="/static/images/logo.png" alt="Loading..." className="w-full h-full object-contain" />
   </motion.div>
 </div>
       </div>
@@ -189,7 +189,7 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
       <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
         <div onClick={() => setActiveTab('home')} className="flex items-center gap-2 cursor-pointer group">
           <img
-    src="/logo.png" 
+    src="/static/images/logo.png" 
     alt="JAZARI Logo"
     className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
   />
